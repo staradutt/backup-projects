@@ -1,5 +1,5 @@
 Steps to make crosslinked epoxy:
-1.  Create a box filled with individual molecules using EMC
+1.  Create a box filled with individual molecules using EMC (Enhanced Monte Carlo) software.
 2.  Once the lammps input file is generated, 
     write a python script to edit the input file genrated by EMC.
     The script should mark the atoms that are going to react in new atom types.(exl script included)
