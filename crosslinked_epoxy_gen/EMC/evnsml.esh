@@ -1,0 +1,17 @@
+ITEM		OPTIONS
+
+replace		true
+mass		true
+ntotal		140
+density		0.8
+field		pcff
+build_dir	.
+
+ITEM		END
+
+ITEM		SHORTHAND
+
+dgeba		CC(C)(c1ccc(OCC([C-])O)cc1)c2ccc(OCC([C-])O)cc2,66
+ipd			CC1(CC(CC(C1)(C)C[N-2])[N-2])C,34		
+
+ITEM		END

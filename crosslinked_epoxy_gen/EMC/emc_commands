@@ -1,0 +1,2 @@
+emc_setup.pl evnsml.esh
+emc_linux64 build.emc 2>&1 | tee build.out
