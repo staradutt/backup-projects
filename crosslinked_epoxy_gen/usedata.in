@@ -1,0 +1,29 @@
+units 			real
+boundary 		p p p
+atom_style 		full
+pair_style 		lj/class2 8
+angle_style 	class2 
+bond_style 		class2 
+dihedral_style 	class2
+
+read_data data.3000 extra/bond/per/atom 2
+
+
+thermo 100
+
+
+fix 1 all nvt temp 300 300 100
+fix 3 all bond/create 1 6 9 3.0 14 iparam 2 6 jparam 1 9
+thermo_style custom step temp
+#dump 1 all custom 100 a.dump* id type x y z
+
+variable  y loop 4000
+label loopy
+run 2
+write_data data.${y}
+next y
+jump usedata.in loopy
+
+#unfix 1
+#unfix 3
+print 'All Done!'

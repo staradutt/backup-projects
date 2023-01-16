@@ -1,0 +1,71 @@
+
+
+cluster1
+
+ dol_#         name
+     1          Web
+     2          Jet
+     4         DN16
+     8   Beescratch
+    10        Quasi
+    12      Feather
+    13         Wave
+    16          Mus
+    17         DN63
+    18         DN21
+    19         SN89
+    20         MN23
+    27         Knit
+    30         TR82
+    33      Number1
+    37          Zig
+    40  Ripplefluke
+    41        Notch
+    44         SN90
+    53           PL
+    60     Gallatin
+    61       Upbang
+
+cluster2
+
+ dol_#       name
+     0   Haecksel
+     3       SMN5
+     5   Shmuddel
+     6      Cross
+     7    Topless
+     9        CCL
+    11       MN60
+    14        SN9
+    15       Fork
+    21    Stripes
+    22      Jonah
+    23        Zap
+    24       Five
+    25       Beak
+    26        Vau
+    28     TSN103
+    29       Grin
+    31       TR77
+    32     Double
+    34    Thumper
+    35       SN63
+    36    Trigger
+    38   Whitetip
+    39     Bumper
+    42    Kringel
+    43      TSN83
+    45       TR99
+    46       SN96
+    47      SN100
+    48      TR120
+    49       Fish
+    50        SN4
+    51     Zipfel
+    52       Hook
+    54       MN83
+    55  Patchback
+    56      Oscar
+    57      MN105
+    58      Scabs
+    59       TR88
